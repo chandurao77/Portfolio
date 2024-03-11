@@ -137,16 +137,16 @@ section {
 /* IMAGE */
 
 .images {
-    width: 25em;
-    height: 25em;
-    border-radius: 50%;
+    width: 35em;
+    height: 35em;
+    border-radius: 100%;
     margin: auto;
 }
 
 .blue-bg-outer {
-    width: 25em;
-    height: 25em;
-    border-radius: 50%;
+    width: 0em;
+    height: 0em;
+    border-radius: 10%;
     background: #33383C;
     display: grid;
     place-items: center;
