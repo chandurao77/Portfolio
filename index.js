@@ -2,8 +2,8 @@
 const aboutLink = document.getElementById('about-link');
 const aboutDescription = document.querySelector('.about-link'); // Corrected class name
 
-// Add an event listener to the "About" link
-aboutLink.addEventListener('click', (event) => {
+// Add an event listener to the "About" link (skip if the elements are missing)
+if (aboutLink && aboutDescription) aboutLink.addEventListener('click', (event) => {
     // Prevent the default behavior of the link
     event.preventDefault();
 
